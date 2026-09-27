@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="catGrad_Kids" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B" />
+      <stop offset="100%" stop-color="#312E81" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#catGrad_Kids)" />
+  
+  <!-- Minimal Geometric Lines -->
+  <circle cx="400" cy="500" r="260" stroke="#FFFFFF" stroke-width="1.5" opacity="0.15" />
+  <circle cx="400" cy="500" r="380" stroke="#FFFFFF" stroke-width="1.5" opacity="0.08" />
+  <line x1="80" y1="80" x2="720" y2="920" stroke="#FFFFFF" stroke-width="1.5" opacity="0.08" />
+
+  <!-- Sneaker Silhouette Graphic in Background -->
+  <g transform="translate(150, 320) scale(0.7)" opacity="0.4">
+    <path d="M100 340 C95 300 110 230 160 210 C185 200 210 215 230 230 C270 200 320 180 380 185 C420 188 470 230 520 270 C545 290 560 300 560 300 C520 330 480 340 420 342 C360 345 300 339 240 342 C180 345 140 338 100 340 Z" fill="#FFFFFF" opacity="0.3" />
+    <path d="M100 340 C140 338 180 345 240 342 C300 339 360 345 420 342 C480 340 520 330 560 300 C565 295 570 305 565 315 C540 365 480 375 420 375 C320 375 220 378 120 372 C80 370 70 355 100 340 Z" fill="#FFFFFF" opacity="0.4" />
+  </g>
+
+  <!-- Typography -->
+  <text x="70" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" letter-spacing="0.3em" fill="#FFFFFF" opacity="0.75">PLAY WITHOUT LIMITS</text>
+  <text x="70" y="840" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="900" letter-spacing="-0.03em" fill="#FFFFFF">KIDS</text>
+  <text x="70" y="880" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="#FFFFFF" opacity="0.9">Explore Collection →</text>
+</svg>

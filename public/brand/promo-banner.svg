@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="promoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181B" />
+      <stop offset="60%" stop-color="#111113" />
+      <stop offset="100%" stop-color="#09090B" />
+    </linearGradient>
+    <radialGradient id="glow" cx="65%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EA580C" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#promoGrad)" />
+  <rect width="1600" height="700" fill="url(#glow)" />
+  
+  <!-- Subtle Grid Lines -->
+  <g opacity="0.1" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="6 12">
+    <line x1="100" y1="150" x2="1500" y2="150" />
+    <line x1="100" y1="350" x2="1500" y2="350" />
+    <line x1="100" y1="550" x2="1500" y2="550" />
+    <line x1="400" y1="50" x2="400" y2="650" />
+    <line x1="1200" y1="50" x2="1200" y2="650" />
+  </g>
+
+  <!-- Editorial Typography -->
+  <text x="120" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" letter-spacing="0.3em" fill="#EA580C">INNOVATION 2026</text>
+  <text x="120" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="900" letter-spacing="-0.04em" fill="#FFFFFF">BUILT TO MOVE.</text>
+  <text x="120" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" fill="#A1A1AA" max-width="600">Performance technology meets everyday design. Precision-engineered foam cushioning.</text>
+
+  <!-- Large Stylized Sneaker Outline Illustration -->
+  <g transform="translate(750, 100) scale(1.4)" opacity="0.85">
+    <path d="M100 340 C140 338 180 345 240 342 C300 339 360 345 420 342 C480 340 520 330 560 300 C565 295 570 305 565 315 C540 365 480 375 420 375 C320 375 220 378 120 372 C80 370 70 355 100 340 Z" fill="#27272A" stroke="#3F3F46" stroke-width="2" />
+    <path d="M100 340 C95 300 110 230 160 210 C185 200 210 215 230 230 C270 200 320 180 380 185 C420 188 470 230 520 270 C545 290 560 300 560 300 C520 330 480 340 420 342 C360 345 300 339 240 342 C180 345 140 338 100 340 Z" fill="#18181B" stroke="#52525B" stroke-width="2" />
+    <path d="M170 325 C220 320 310 240 440 260 C380 280 290 335 210 338 Z" fill="#EA580C" opacity="0.9" />
+    <path d="M270 250 L290 270 M305 235 L330 255 M340 220 L370 242 M380 205 L410 230 M420 195 L445 220" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" />
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://solex.shoes/sitemap.xml
